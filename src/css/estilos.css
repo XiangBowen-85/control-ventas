@@ -41,6 +41,7 @@ body > header {
     border: solid 1px #ccc;
     border-radius: .5rem;
     box-shadow: 0 .5rem .5rem #00000063;
+    padding: .5rem;
 }
 
 main {
@@ -51,6 +52,7 @@ main {
 
 .panel > h1 {
     font-size: 1.5em;
+    margin-bottom: 1em;
 }
 
 #login {
@@ -58,11 +60,11 @@ main {
     flex-direction: column;
 }
 
-#login > input{
+#login > input {
     margin-bottom: 1em;
 }
 
-#login > input[type="submit"]{
+#login > input[type="submit"] {
     width: 150px;
     padding: .5em;
     align-self: center;
@@ -70,8 +72,7 @@ main {
     border: 1px solid #ccc;
 }
 
-.panel > a{
+.panel > a {
     display: block;
     text-align: center;
 }
-
