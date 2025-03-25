@@ -26,5 +26,24 @@ if ($result->num_rows == 0) {
 }
 
 ?>
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Control de Ventas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/code.js" defer></script>
+</head>
+<body>
+
+<header>
+    <img src="https://placehold.co/100x70" alt="Logotipo">
+</header>
 
 <h1>Bienvenido <?php echo $_POST['usuario']; ?></h1>
+
+</body>
+</html>
