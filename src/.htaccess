@@ -1,3 +1,5 @@
 #klfjlfkdjgdgj
 
+#feat: importente: ".htaccess" es la directorio de proyecto
+
 php_value include_path "C:/Users/xiangbw/PhpstormProjects/control-ventas/env"
