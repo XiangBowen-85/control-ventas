@@ -1,10 +1,11 @@
 <?php
-// TODO: Gestionar sesiones y usuarios
-/*if (empty($_POST['usuario']) || empty($_POST['password'])) {
-  header('Location: ../');
-}
+/*// TODO: Gestionar sesiones y usuarios
 
 include 'control-ventas.inc';
+
+if (empty($_POST['usuario']) || empty($_POST['password'])) {
+  header('Location: ../');
+}
 
 $sentencia = "SELECT * FROM usuarios WHERE email = ? AND password = SHA1(?)";
 $result = $conn->execute_query($sentencia, array($_POST['usuario'], $_POST['password']));
